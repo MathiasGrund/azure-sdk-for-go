@@ -52,9 +52,9 @@ const (
 	queueServiceName = "queue"
 	fileServiceName  = "file"
 
-	storageEmulatorBlob  = "127.0.0.1:10000"
-	storageEmulatorTable = "127.0.0.1:10002"
-	storageEmulatorQueue = "127.0.0.1:10001"
+	storageEmulatorBlob  = "azurite:10000"
+	storageEmulatorTable = "azurite:10002"
+	storageEmulatorQueue = "azurite:10001"
 
 	userAgentHeader = "User-Agent"
 
